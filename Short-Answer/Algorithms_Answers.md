@@ -2,28 +2,30 @@ Add your answers to the Algorithms exercises here.
 
 E1 -->
 
-    a) a === 0 (constant)
+    a) O(n)
+    
+    a === 0 (constant)
        while 0 < n ^ 3
     So when N is == 2 it will run twice, n == 3 will run 3 times and so forth...
 
-        O(n)
 
-    b)  O(n^4)
-            four nested loops
-
+    b)  O(n^3)
+            three nested loops that take into account n (last loop is constant range of 10)
 
         <!-- if n == 5 (for example) run each go around for index i until i == n ) [if n is 5 i will be 5 upon completion] Ends look when N iterations have completed.
 
         for index j in range i + 1 to n go around adding 1 to j. [if n is 5 j will be 5 upon completion]
 
         for index k in range j + 1 to n go around adding 1 to k. [if n is 5 k will be 5 upon completion]
-
+   
         for index l in range k + 1 to 10 + k go around adding one to l and sum.
 
         [if n is 5 l will run 15 times (for each parent range)] -->
 
 
-    c)O(n). Recursive.
+    c) O(n). 
+    
+        Recursive. More bunnies account for more ears.
 
 
 E2 -->
