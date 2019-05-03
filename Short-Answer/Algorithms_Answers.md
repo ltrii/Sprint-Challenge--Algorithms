@@ -8,8 +8,11 @@ E1 -->
 
         O(n)
 
-    b)
-        if n == 5 (for example) run each go around for index i until i == n ) [if n is 5 i will be 5 upon completion] Ends look when N iterations have completed.
+    b)  O(n^4)
+            four nested loops
+
+
+        <!-- if n == 5 (for example) run each go around for index i until i == n ) [if n is 5 i will be 5 upon completion] Ends look when N iterations have completed.
 
         for index j in range i + 1 to n go around adding 1 to j. [if n is 5 j will be 5 upon completion]
 
@@ -17,10 +20,10 @@ E1 -->
 
         for index l in range k + 1 to 10 + k go around adding one to l and sum.
 
-        [if n is 5 l will run 15 times (for each parent range)]
+        [if n is 5 l will run 15 times (for each parent range)] -->
 
 
-    c)O(n)
+    c)O(n). Recursive.
 
 
 E2 -->
